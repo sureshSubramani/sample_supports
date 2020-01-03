@@ -40,12 +40,12 @@ class Upload_image extends CI_Controller {
                 }
                 else
                 {
-						$data['title'] = 'Upload Image';						
-						//$this->session->set_flashdata("success",'Successfully Uploaded..');						
-						$this->session->set_flashdata("success",'Successfully Uploaded..'); 
-						$this->session->unset_userdata("error"); 
-						//echo 'success';
-						redirect(base_url('upload_image'),'refresh');
+					$data['title'] = 'Upload Image';						
+					//$this->session->set_flashdata("success",'Successfully Uploaded..');						
+					$this->session->set_flashdata("success",'Successfully Uploaded..'); 
+					$this->session->unset_userdata("error"); 
+					//echo 'success';
+					redirect(base_url('upload_image'),'refresh');
 				}
 				
 				
